@@ -1,0 +1,80 @@
+﻿.head {
+    font-style: italic;
+    text-align: center;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.headback {
+    display: block;
+    padding: 30px 15px 400px 15px;
+    
+}   
+
+.table {
+    width: max-content;
+    margin: 500px auto 50px;
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+    td {
+        font-size: 35px;
+        text-align: center;
+    }
+
+h2 {
+    display: block;
+    text-align: center;
+    border: double 1px white;
+    width: stretch;
+    margin: 25px 100px 5px 100px;
+}
+
+.informationLeft {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0px 150px 75px 150px;
+    background-color: rgb(56, 56, 56);
+}
+
+    div > p {
+        display: inline-block;
+        width: 500px;
+        border: solid 2px white;
+        margin: 50px 50px 50px 50px;
+    }
+
+        .backdropLeft {
+            display: inline-block;
+            color: black;
+            background-color: white;
+            width: 500px;
+            margin: 50px 50px 50px 50px;
+        }   
+            
+
+.informationRight {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0px 150px 75px 150px;
+    background-color: rgb(56, 56, 56);
+}
+
+    img + p {
+        display: inline-block;
+        width: 550px;
+        border: solid 2px white;
+        margin: 30px 30px 30px 30px;
+    }
+
+        .backdropRight {
+            display: inline-block;
+            color: black;
+            background-color: white;
+            width: 500px;
+            margin: 50px 50px 50px 50px;
+        }   
