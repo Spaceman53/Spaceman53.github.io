@@ -1,5 +1,5 @@
 
-function clicked {
-    var submit = document.getElementById('sub').value;
-    return confirm("You have successfully submitted your form")
+document.getElementById("sub").onclick = clicked;
+function clicked() {
+    alert('You form has been submitted');
 }
